@@ -10,7 +10,6 @@ function Counter() {
     }
   });
   const incrementCount = (e) => {
-    console.log(e);
     setCount(c => c + 1);
   }
   return (
